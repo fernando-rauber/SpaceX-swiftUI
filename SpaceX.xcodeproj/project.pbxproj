@@ -16,6 +16,8 @@
 		ED75C2312623875B00A8427F /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C2302623875B00A8427F /* LoginRepository.swift */; };
 		ED75C237262387B900A8427F /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C236262387B900A8427F /* LoginResponse.swift */; };
 		ED75C2BA2624D15C00A8427F /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C2B92624D15C00A8427F /* AlertView.swift */; };
+		EDA2EF0B2625FB8700D6F5D3 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2EF0A2625FB8700D6F5D3 /* View+Extension.swift */; };
+		EDA2EF0F2625FBD500D6F5D3 /* AlertMessageViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2EF0E2625FBD500D6F5D3 /* AlertMessageViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		ED75C2302623875B00A8427F /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
 		ED75C236262387B900A8427F /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		ED75C2B92624D15C00A8427F /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		EDA2EF0A2625FB8700D6F5D3 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		EDA2EF0E2625FBD500D6F5D3 /* AlertMessageViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessageViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 		ED75C2132623633600A8427F /* SpaceX */ = {
 			isa = PBXGroup;
 			children = (
+				EDA2EF0D2625FBAE00D6F5D3 /* modifier */,
+				EDA2EF092625FB7200D6F5D3 /* extension */,
 				ED75C234262387A000A8427F /* net */,
 				ED75C22F2623874C00A8427F /* repository */,
 				ED75C2262623639F00A8427F /* view */,
@@ -130,6 +136,22 @@
 				ED75C236262387B900A8427F /* LoginResponse.swift */,
 			);
 			path = response;
+			sourceTree = "<group>";
+		};
+		EDA2EF092625FB7200D6F5D3 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2EF0A2625FB8700D6F5D3 /* View+Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		EDA2EF0D2625FBAE00D6F5D3 /* modifier */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2EF0E2625FBD500D6F5D3 /* AlertMessageViewModifier.swift */,
+			);
+			path = modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +225,9 @@
 			files = (
 				ED75C2312623875B00A8427F /* LoginRepository.swift in Sources */,
 				ED75C22D262377E200A8427F /* LoginViewModel.swift in Sources */,
+				EDA2EF0B2625FB8700D6F5D3 /* View+Extension.swift in Sources */,
 				ED75C2BA2624D15C00A8427F /* AlertView.swift in Sources */,
+				EDA2EF0F2625FBD500D6F5D3 /* AlertMessageViewModifier.swift in Sources */,
 				ED75C237262387B900A8427F /* LoginResponse.swift in Sources */,
 				ED75C229262363C400A8427F /* LoginView.swift in Sources */,
 				ED75C2172623633600A8427F /* ContentView.swift in Sources */,

@@ -12,23 +12,21 @@ struct LoginView: View {
     
     @ObservedObject var viewmodel = LoginViewModel()
     
-    @State private var showAlert = false
-     
     
     // MARK: - BODY
     var body: some View {
         
         ZStack(alignment: .top){
             
-            if viewmodel.result != nil {
-                AlertView(message: viewmodel.result?.message ?? "", isErrorMessage: false)
-                    .edgesIgnoringSafeArea(.all)
-//                    .onAppear{
-//                        withAnimation(.easeIn(duration: 5)){
-//                            viewmodel.result = nil
-//                        }
-//                    }
-            }
+//            if viewmodel.result != nil {
+//                AlertView(text: viewmodel.result?.message ?? "", isErrorMessage: false)
+//                    .edgesIgnoringSafeArea(.all)
+////                    .onAppear{
+////                        withAnimation(.easeIn(duration: 5)){
+////                            viewmodel.result = nil
+////                        }
+////                    }
+//            }
             
             VStack{
                 
@@ -87,7 +85,6 @@ struct LoginView: View {
                         
                         
                     }) {
-
                         Text("Forgot Password")
                             .font(.system(size: 15, weight: .bold, design: .rounded))
                         
@@ -102,16 +99,10 @@ struct LoginView: View {
             .padding(37)
             .background(Color.gray.opacity(0.1))
             .edgesIgnoringSafeArea(.all)
-//            .alert(isPresented: .constant(viewmodel.result != nil)) {
-//                Alert(
-//                    title: Text(viewmodel.result?.title ?? ""),
-//                    message: Text(viewmodel.result?.message ?? ""),
-//                    dismissButton: .default(Text("OK")))
-//            }
             
             
         }// :ZStack
-        
+        .errorView(text: $viewmodel.alertMessage, isSuccess: $viewmodel.alertIsSuccess )
         
     }
 }
