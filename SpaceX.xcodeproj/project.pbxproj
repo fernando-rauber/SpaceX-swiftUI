@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED75C2152623633600A8427F /* SpaceXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C2142623633600A8427F /* SpaceXApp.swift */; };
+		ED75C2172623633600A8427F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C2162623633600A8427F /* ContentView.swift */; };
+		ED75C2192623633900A8427F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED75C2182623633900A8427F /* Assets.xcassets */; };
+		ED75C21C2623633900A8427F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED75C21B2623633900A8427F /* Preview Assets.xcassets */; };
+		ED75C229262363C400A8427F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C228262363C400A8427F /* LoginView.swift */; };
+		ED75C22D262377E200A8427F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C22C262377E200A8427F /* LoginViewModel.swift */; };
+		ED75C2312623875B00A8427F /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C2302623875B00A8427F /* LoginRepository.swift */; };
+		ED75C237262387B900A8427F /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C236262387B900A8427F /* LoginResponse.swift */; };
+		ED75C2BA2624D15C00A8427F /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C2B92624D15C00A8427F /* AlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED75C2112623633600A8427F /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED75C2142623633600A8427F /* SpaceXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXApp.swift; sourceTree = "<group>"; };
+		ED75C2162623633600A8427F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED75C2182623633900A8427F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED75C21B2623633900A8427F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED75C21D2623633900A8427F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED75C228262363C400A8427F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ED75C22C262377E200A8427F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		ED75C2302623875B00A8427F /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		ED75C236262387B900A8427F /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		ED75C2B92624D15C00A8427F /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED75C20E2623633600A8427F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED75C2082623633600A8427F = {
+			isa = PBXGroup;
+			children = (
+				ED75C2132623633600A8427F /* SpaceX */,
+				ED75C2122623633600A8427F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED75C2122623633600A8427F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C2112623633600A8427F /* SpaceX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED75C2132623633600A8427F /* SpaceX */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C234262387A000A8427F /* net */,
+				ED75C22F2623874C00A8427F /* repository */,
+				ED75C2262623639F00A8427F /* view */,
+				ED75C2252623639400A8427F /* viewmodel */,
+				ED75C2242623637C00A8427F /* screen */,
+				ED75C2142623633600A8427F /* SpaceXApp.swift */,
+				ED75C2182623633900A8427F /* Assets.xcassets */,
+				ED75C21D2623633900A8427F /* Info.plist */,
+				ED75C21A2623633900A8427F /* Preview Content */,
+			);
+			path = SpaceX;
+			sourceTree = "<group>";
+		};
+		ED75C21A2623633900A8427F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C21B2623633900A8427F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED75C2242623637C00A8427F /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C2162623633600A8427F /* ContentView.swift */,
+				ED75C228262363C400A8427F /* LoginView.swift */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		ED75C2252623639400A8427F /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C22C262377E200A8427F /* LoginViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		ED75C2262623639F00A8427F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C2B92624D15C00A8427F /* AlertView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		ED75C22F2623874C00A8427F /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C2302623875B00A8427F /* LoginRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		ED75C234262387A000A8427F /* net */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C235262387A700A8427F /* response */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		ED75C235262387A700A8427F /* response */ = {
+			isa = PBXGroup;
+			children = (
+				ED75C236262387B900A8427F /* LoginResponse.swift */,
+			);
+			path = response;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED75C2102623633600A8427F /* SpaceX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED75C2202623633900A8427F /* Build configuration list for PBXNativeTarget "SpaceX" */;
+			buildPhases = (
+				ED75C20D2623633600A8427F /* Sources */,
+				ED75C20E2623633600A8427F /* Frameworks */,
+				ED75C20F2623633600A8427F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceX;
+			productName = SpaceX;
+			productReference = ED75C2112623633600A8427F /* SpaceX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED75C2092623633600A8427F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ED75C2102623633600A8427F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = ED75C20C2623633600A8427F /* Build configuration list for PBXProject "SpaceX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED75C2082623633600A8427F;
+			productRefGroup = ED75C2122623633600A8427F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED75C2102623633600A8427F /* SpaceX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED75C20F2623633600A8427F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75C21C2623633900A8427F /* Preview Assets.xcassets in Resources */,
+				ED75C2192623633900A8427F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED75C20D2623633600A8427F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75C2312623875B00A8427F /* LoginRepository.swift in Sources */,
+				ED75C22D262377E200A8427F /* LoginViewModel.swift in Sources */,
+				ED75C2BA2624D15C00A8427F /* AlertView.swift in Sources */,
+				ED75C237262387B900A8427F /* LoginResponse.swift in Sources */,
+				ED75C229262363C400A8427F /* LoginView.swift in Sources */,
+				ED75C2172623633600A8427F /* ContentView.swift in Sources */,
+				ED75C2152623633600A8427F /* SpaceXApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED75C21E2623633900A8427F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED75C21F2623633900A8427F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED75C2212623633900A8427F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceX/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LJTC63CW4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpaceX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernando.SpaceX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED75C2222623633900A8427F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceX/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LJTC63CW4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpaceX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernando.SpaceX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED75C20C2623633600A8427F /* Build configuration list for PBXProject "SpaceX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED75C21E2623633900A8427F /* Debug */,
+				ED75C21F2623633900A8427F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED75C2202623633900A8427F /* Build configuration list for PBXNativeTarget "SpaceX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED75C2212623633900A8427F /* Debug */,
+				ED75C2222623633900A8427F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED75C2092623633600A8427F /* Project object */;
+}
