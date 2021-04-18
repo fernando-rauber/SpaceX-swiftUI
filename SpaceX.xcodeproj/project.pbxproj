@@ -18,6 +18,8 @@
 		ED75C2BA2624D15C00A8427F /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75C2B92624D15C00A8427F /* AlertView.swift */; };
 		EDA2EF0B2625FB8700D6F5D3 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2EF0A2625FB8700D6F5D3 /* View+Extension.swift */; };
 		EDA2EF0F2625FBD500D6F5D3 /* AlertMessageViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2EF0E2625FBD500D6F5D3 /* AlertMessageViewModifier.swift */; };
+		EDDF6EFE262CBF3200ED8985 /* Constnants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF6EFD262CBF3200ED8985 /* Constnants.swift */; };
+		EDDF6F03262CBF9000ED8985 /* RocketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF6F02262CBF9000ED8985 /* RocketModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		ED75C2B92624D15C00A8427F /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		EDA2EF0A2625FB8700D6F5D3 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		EDA2EF0E2625FBD500D6F5D3 /* AlertMessageViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessageViewModifier.swift; sourceTree = "<group>"; };
+		EDDF6EFD262CBF3200ED8985 /* Constnants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constnants.swift; sourceTree = "<group>"; };
+		EDDF6F02262CBF9000ED8985 /* RocketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		ED75C2132623633600A8427F /* SpaceX */ = {
 			isa = PBXGroup;
 			children = (
+				EDDF6F01262CBF8200ED8985 /* model */,
 				EDA2EF0D2625FBAE00D6F5D3 /* modifier */,
 				EDA2EF092625FB7200D6F5D3 /* extension */,
 				ED75C234262387A000A8427F /* net */,
@@ -126,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				ED75C235262387A700A8427F /* response */,
+				EDDF6EFD262CBF3200ED8985 /* Constnants.swift */,
 			);
 			path = net;
 			sourceTree = "<group>";
@@ -152,6 +158,14 @@
 				EDA2EF0E2625FBD500D6F5D3 /* AlertMessageViewModifier.swift */,
 			);
 			path = modifier;
+			sourceTree = "<group>";
+		};
+		EDDF6F01262CBF8200ED8985 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EDDF6F02262CBF9000ED8985 /* RocketModel.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,10 +239,12 @@
 			files = (
 				ED75C2312623875B00A8427F /* LoginRepository.swift in Sources */,
 				ED75C22D262377E200A8427F /* LoginViewModel.swift in Sources */,
+				EDDF6F03262CBF9000ED8985 /* RocketModel.swift in Sources */,
 				EDA2EF0B2625FB8700D6F5D3 /* View+Extension.swift in Sources */,
 				ED75C2BA2624D15C00A8427F /* AlertView.swift in Sources */,
 				EDA2EF0F2625FBD500D6F5D3 /* AlertMessageViewModifier.swift in Sources */,
 				ED75C237262387B900A8427F /* LoginResponse.swift in Sources */,
+				EDDF6EFE262CBF3200ED8985 /* Constnants.swift in Sources */,
 				ED75C229262363C400A8427F /* LoginView.swift in Sources */,
 				ED75C2172623633600A8427F /* ContentView.swift in Sources */,
 				ED75C2152623633600A8427F /* SpaceXApp.swift in Sources */,

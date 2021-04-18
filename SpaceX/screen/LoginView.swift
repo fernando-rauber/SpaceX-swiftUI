@@ -18,15 +18,6 @@ struct LoginView: View {
         
         ZStack(alignment: .top){
             
-//            if viewmodel.result != nil {
-//                AlertView(text: viewmodel.result?.message ?? "", isErrorMessage: false)
-//                    .edgesIgnoringSafeArea(.all)
-////                    .onAppear{
-////                        withAnimation(.easeIn(duration: 5)){
-////                            viewmodel.result = nil
-////                        }
-////                    }
-//            }
             
             VStack{
                 
