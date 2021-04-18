@@ -9,6 +9,7 @@ import Foundation
 
 struct Rocket: Codable, Identifiable {
     let id: String
+    let rocket_name: String
     let active: Bool
     let first_flight: String
     let country: String
